@@ -1,0 +1,151 @@
+body{
+  font-family: 'Open Sans', sans-serif; 
+  box-sizing: border-box;
+}
+
+.container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+
+.menu{
+  margin-right: auto;
+  margin-top: 3%;
+  margin-left: 2%;
+}
+
+.menu nav{
+  display: flex;
+  flex-direction: column;
+  
+}
+.menu nav a{
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 18px;
+  color: #cacaca;
+}
+
+.menu nav p{
+  font-weight: bold;
+}
+
+
+.menu nav hr{
+  background-color: #cacaca;
+  height: 1px;
+  width: 230px;
+  margin-top: 5px;
+  border-style: none;
+}
+
+.search p{
+  font-weight: bold;
+}
+
+.search input{
+  border: none;
+  height: 20px;
+  padding: 10px 10px;
+  margin-left: 2px;
+}
+.search input:focus{
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+.searchInput{
+  border: 1px solid #cacaca;
+  border-radius: 5px;
+  width: 14em;
+  height: 40px;
+}
+
+.searchInput span{
+  color: #cacaca;
+}
+
+
+.title{
+  width: 100%;
+  margin-top: 3%;
+  display: flex;
+  line-height: 0.5;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title h1{
+  font-size: 28px;
+}
+
+.title p{
+  font-size: 18px;
+  font-weight: 500;
+  color: #cacaca;
+}
+
+.content{
+  height: 100%;
+  width: 850px;
+  display: flex;
+  margin-top: 3%;
+  margin-left: auto;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.post{
+  border: 1px solid #cacaca;
+  border-radius: 5px;
+  width: 390px;
+  height: 420px;
+  margin-right: 2%;
+  margin-bottom: 1.8%;
+}
+
+.post img{
+  width: 100%;
+  height: 220px;
+  border-radius: 4px 4px 0 0;
+}
+
+.post h2{
+  font-size: 1.5em;
+  margin-left: 2%;
+  font-weight: 500;
+}
+
+.post p{
+  font-size: 0.9em;
+  margin-left: 2%;
+  font-weight: 300;
+}
+
+.post a{
+  text-decoration: none;
+  font-weight: bold;
+  color: #5cceee;
+  margin-left: 2%;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 630px) { 
+  .post{
+    width: 80%;
+    height: 700px; 
+  }
+  .title h1, p{
+    line-height: 1.5;
+  }
+  
+  
+
+
+}
